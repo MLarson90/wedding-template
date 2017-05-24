@@ -1,21 +1,22 @@
-.welcomeBackground{
-  background-image: url('/assets/img/cliff.jpg');
+.scheduleBackground{
+  background-image: url('/assets/img/Same-Sex-Wedding.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding:27%;
-}
-h1{
-  font-family: 'Tangerine', cursive;
-  color:	#ccad00;
-  text-align: center;
-  font-size: 150px;
-  text-shadow: 3px 3px black;
+  padding:25%;
 }
 p{
   font-family: 'Tangerine', cursive;
   color:	#ccad00;
-  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 1px black;
+  margin-right: 70%;
+
+}
+h3{
+  font-family: 'Tangerine', cursive;
+  color:	#ccad00;
   font-size: 60px;
   text-shadow: 2px 2px black;
+  margin-right: 70%;
 }
