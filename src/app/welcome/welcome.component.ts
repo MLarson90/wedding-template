@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $:any;
 @Component({
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
@@ -10,8 +10,12 @@ export class WelcomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
 
+  ngOnInit() {
+    $("h1").click(function(event){
+      event.preventDefault();
+      alert("test");
+    });
   }
 
 }

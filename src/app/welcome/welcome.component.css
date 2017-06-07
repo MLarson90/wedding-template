@@ -7,15 +7,14 @@
 }
 h1{
   font-family: 'Tangerine', cursive;
-  color:	#ccad00;
+  color:	white;
   text-align: center;
   font-size: 150px;
-  text-shadow: 3px 3px black;
+
 }
 p{
   font-family: 'Tangerine', cursive;
-  color:	#ccad00;
+  color:	white;
   text-align: center;
   font-size: 60px;
-  text-shadow: 2px 2px black;
 }

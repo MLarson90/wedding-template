@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { TravelComponent } from './travel/travel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    TravelComponent
   ],
   imports: [
     BrowserModule,

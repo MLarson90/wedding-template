@@ -1,13 +1,12 @@
 .scheduleBackground{
   background-image: url('/assets/img/Same-Sex-Wedding.jpg');
-  background-position: center;
+  margin-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding:25%;
 }
 p{
   font-family: 'Tangerine', cursive;
-  color:	#ccad00;
+  color:	white;
   font-size: 30px;
   text-shadow: 2px 1px black;
   margin-right: 70%;
@@ -15,7 +14,7 @@ p{
 }
 h3{
   font-family: 'Tangerine', cursive;
-  color:	#ccad00;
+  color:	white;
   font-size: 60px;
   text-shadow: 2px 2px black;
   margin-right: 70%;
