@@ -1,0 +1,8 @@
+<p>a</p>
+<h2>Marketplace</h2>
+
+<div *ngFor="let response of rsvp | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{response.first}}</em>  {{response.last}}</h3>
+  </div>
+</div>

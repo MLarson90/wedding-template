@@ -1,22 +1,64 @@
-.scheduleBackground{
-  background-image: url('/assets/img/Same-Sex-Wedding.jpg');
-  background-position: center;
+/* Top */
+.topSide{
+  background-image: url("/assets/img/whiteflower.jpg");
   background-repeat: no-repeat;
+  background-position:center;
   background-size: cover;
-  padding:25%;
-}
-p{
   font-family: 'Tangerine', cursive;
-  color:	white;
-  font-size: 30px;
-  text-shadow: 2px 1px black;
-  margin-right: 70%;
-
+  color:black;
+  height: 500px;
+  display: none;
+  margin-top: 70px;
 }
-h3{
+.topSide h1{
+  padding-top: 80px;
+  font-size:60px;
+  margin-left: 880px;
+}
+.topSide p{
+  font-size:30px;
+  margin-top: 2px;
+  margin-left: 890px;
+}
+/* Middle */
+.middleSide{
+  background-image: url("/assets/img/tree.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
   font-family: 'Tangerine', cursive;
-  color:	white;
-  font-size: 60px;
-  text-shadow: 2px 2px black;
-  margin-right: 70%;
+  color:white;
+  height: 500px;
+  opacity:0;
+}
+.middleSide h1{
+  padding-top: 80px;
+  font-size:60px;
+  margin-left: 40px;
+}
+.middleSide p{
+  font-size:30px;
+  margin-left:50px;
+}
+/* Bottom */
+.bottomSide{
+  background-image: url("/assets/img/back2back.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  font-family: 'Tangerine', cursive;
+  color:white;
+  height: 500px;
+  opacity:0;
+  margin-bottom: 40px;
+}
+.bottomSide h1{
+  padding-top: 80px;
+  font-size:60px;
+  margin-left: 880px;
+}
+.bottomSide p{
+  font-size:30px;
+  margin-top: 2px;
+  margin-left: 890px;
 }

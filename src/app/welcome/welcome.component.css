@@ -18,3 +18,13 @@ p{
   text-align: center;
   font-size: 60px;
 }
+/*The three lines of text that will fade-in in order*/
+#first{
+  display:none;
+}
+#second{
+  display:none;
+}
+#third{
+  display:none;
+}

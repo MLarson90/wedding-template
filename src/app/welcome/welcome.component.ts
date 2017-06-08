@@ -12,7 +12,10 @@ export class WelcomeComponent implements OnInit {
 
 
   ngOnInit() {
-
+    // Fades in text
+    $('#first').fadeIn(1000);
+    $('#second').fadeIn(3000);
+    $('#third').fadeIn(3500);
     $("h1").click(function(event){
       alert("test");
     });

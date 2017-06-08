@@ -1,12 +1,45 @@
+/* background image adn text */
 .travelBackground{
   background-image: url('/assets/img/space-needle.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  padding:25%;
-  position: relative;
+  background-size:cover;
+  height: 500px;
+  margin-top: 50px;
 }
-
-#planeToDown{
+.travelBackground h1{
+  float:right;
+  margin-right: 50px;
+  font-family: 'Cormorant SC', serif;
+  font-size: 60px;
+  color:white;
+  border-bottom: 2px solid white;
+}
+.travelBackground p{
+  float:right;
+  margin-top: 100px;
+  color:white;
+  font-family: 'Cormorant', cursive;
+  font-size: 25px;
+}
+/* styles both columns */
+li{
+  list-style-type: none;
+}
+.planeToDown{
   background:white;
-  margin-left:150px;
+  margin-left:70px;
+  font-family: 'Cormorant', serif;
+  font-size: 17px;
+}
+.planeToDown h2{
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 4px double gold;
+}
+/* needed for jquery slideIn */
+#travelHead{
+  display: none;
+}
+#travelTopHead{
+  display:none;
 }
