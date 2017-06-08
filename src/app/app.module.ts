@@ -12,6 +12,7 @@ import { routing } from './app.routing';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { TravelComponent } from './travel/travel.component';
 import { AdminComponent } from './admin/admin.component';
+import { RsvpComponent } from './rsvp/rsvp.component';
 
 
 export const firebaseConfig = {
@@ -26,7 +27,8 @@ export const firebaseConfig = {
     WelcomeComponent,
     ScheduleComponent,
     TravelComponent,
-    AdminComponent
+    AdminComponent,
+    RsvpComponent
   ],
   imports: [
     BrowserModule,
