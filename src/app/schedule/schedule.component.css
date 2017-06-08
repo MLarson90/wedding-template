@@ -1,8 +1,9 @@
 .scheduleBackground{
   background-image: url('/assets/img/Same-Sex-Wedding.jpg');
-  margin-bottom: 20px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding:25%;
 }
 p{
   font-family: 'Tangerine', cursive;

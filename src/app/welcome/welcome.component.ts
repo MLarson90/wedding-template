@@ -12,8 +12,8 @@ export class WelcomeComponent implements OnInit {
 
 
   ngOnInit() {
+
     $("h1").click(function(event){
-      event.preventDefault();
       alert("test");
     });
   }
