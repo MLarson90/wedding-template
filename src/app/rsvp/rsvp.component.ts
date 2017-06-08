@@ -6,8 +6,15 @@ declare var $:any;
   styleUrls: ['./rsvp.component.css']
 })
 export class RsvpComponent implements OnInit {
-  submit(first:string,last:string){
+  submit(first:string,last:string,datefirst:string,datelast:string,numberOfKids:number,reception:string,brunch:string,hotel:string){
     console.log(first);
+    console.log(last);
+    console.log(datefirst);
+    console.log(datelast);
+    console.log(numberOfKids);
+    console.log(reception);
+    console.log(brunch);
+    console.log(hotel);
   }
   constructor() { }
 

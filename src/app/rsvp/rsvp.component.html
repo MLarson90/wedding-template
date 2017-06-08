@@ -15,25 +15,25 @@
     <button type="button" id="plus">Bringing a Date?</button><br>
   <div id="plusOne">
     <h4>Date's Name</h4>
-    <input id="datefirst" name="datefirst" placeholder="first name">
-    <input id="datelast" name="datelast" placeholder="last name"><br>
+    <input id="datefirst" #datefirst placeholder="first name">
+    <input id="datelast" #datelast placeholder="last name"><br>
   </div>
     <button type='button' id='kids'>Kids?</button><br>
     <div id='amountOfKids'>
       <h4>Children</h4>
-      <input id="numberOfKids" name='numberOfKids' placeholder='Number of children'><br>
+      <input id="numberOfKids" #numberOfKids placeholder='Number of children'><br>
     </div>
     <h3>Will you be attending...</h3>
     <h4>Reception</h4>
     <input type="radio" #reception value="yes"> Yes<br>
-    <input type="radio" name="reception" value="no"> No<br>
+    <input type="radio" #reception value="no"> No<br>
     <h4>Brunch</h4>
-    <input type="radio" name="brunch" value="yes"> Yes<br>
-    <input type="radio" name="brunch" value="no"> No<br>
+    <input type="radio" #brunch value="yes"> Yes<br>
+    <input type="radio" #brunch value="no"> No<br>
     <h3>...and will you be staying at the Westin?</h3>
-      <input type="radio" name="hotel" value="yes"> Yes<br>
-      <input type="radio" name="hotel" value="no"> No<br>
+      <input type="radio" #hotel value="yes"> Yes<br>
+      <input type="radio" #hotel value="no"> No<br>
 
-      <button id="addRSVP" (click)="submit(first.value, last.value)">Submit</button>
+      <button id="addRSVP" (click)="submit(first.value, last.value, datefirst.value, datelast.value, numberOfKids.value, reception.value,brunch.value,hotel.value)">Submit</button>
   </form>
 </div>
