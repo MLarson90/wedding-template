@@ -1,13 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Rsvp } from '../rsvp.model';
+import { RsvpService } from 'app/rsvp.service';
 
 declare var $:any;
 @Component({
   selector: 'app-rsvp',
   templateUrl: './rsvp.component.html',
-  styleUrls: ['./rsvp.component.css']
+  styleUrls: ['./rsvp.component.css'],
+  providers: [RsvpService]
 })
 export class RsvpComponent implements OnInit {
+  constructor(private rsvp: RsvpService) { }
   submit(first:string,last:string,datefirst:string,datelast:string,numberOfKids:number,reception:string,brunch:string,hotel:string){
     //calculate how many adults are coming (1 or 2)
     var date = function(datefirst){
@@ -27,6 +30,7 @@ export class RsvpComponent implements OnInit {
     }
     //adult and total party totals
     var adults = date(datefirst);
+    var children = kids(numberOfKids);
     var party = adults + kids(numberOfKids);
     //how many attending each event
     var comingToEvent = function(coming, party){
@@ -41,10 +45,10 @@ export class RsvpComponent implements OnInit {
     var brunchNumber = comingToEvent(brunch, party);
     var hotelNumber = comingToEvent(hotel, party);
 
-    var totalsForDb = new Rsvp(first,last, datefirst, datelast, numberOfKids, party, receptionNumber, brunchNumber, hotelNumber);
-    console.log(totalsForDb);
+    var totalsForDb = new Rsvp(first,last, datefirst, datelast, children, party, receptionNumber, brunchNumber, hotelNumber);
+    this.rsvp.addGuest(totalsForDb);
   }
-  constructor() { }
+
 
   ngOnInit() {
   //RSVP form functions
