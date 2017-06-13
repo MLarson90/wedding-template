@@ -23,17 +23,22 @@
       <h4>Children</h4>
       <input id="numberOfKids" #numberOfKids placeholder='Number of children'><br>
     </div>
-    <h3>Will you be attending...</h3>
+    <h3>How many in your party will be attending...</h3>
     <h4>Reception</h4>
-    <input type="radio" #reception value="yes"> Yes<br>
-    <input type="radio" #reception value="no"> No<br>
+    <select #reception>
+      <option value=true>Yes</option>
+      <option value=false>No</option>
+    </select>
     <h4>Brunch</h4>
-    <input type="radio" #brunch value="yes"> Yes<br>
-    <input type="radio" #brunch value="no"> No<br>
-    <h3>...and will you be staying at the Westin?</h3>
-      <input type="radio" #hotel value="yes"> Yes<br>
-      <input type="radio" #hotel value="no"> No<br>
-
+    <select #brunch>
+      <option value=true>Yes</option>
+      <option value=false>No</option>
+    </select>
+    <h4>Staying at the Westin?</h4>
+    <select #hotel>
+      <option value=true>Yes</option>
+      <option value=false>No</option>
+    </select><br>
       <button id="addRSVP" (click)="submit(first.value, last.value, datefirst.value, datelast.value, numberOfKids.value, reception.value,brunch.value,hotel.value)">Submit</button>
   </form>
 </div>
