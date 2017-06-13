@@ -1,8 +1,9 @@
 <p>a</p>
-<h2>Guest</h2>
+<h2>Guest List</h2>
 
 <div *ngFor="let response of rsvp | async" class="panel panel-default">
   <div class="panel-body">
-    <h3><em>{{response.first}}</em>  {{response.last}}</h3>
+    <h3 id="guest"><em>{{response.first}}</em>  {{response.last}} </h3><h3 *ngIf="response.datefirst">  , {{response.datefirst}} {{response.datelast}}</h3>
   </div>
 </div>
+<h2>Wedding guest {{wedding}}</h2>
