@@ -21,6 +21,8 @@ export class AdminComponent implements OnInit {
   brunchTotal = 0;
   kids;
   kidTotal = 0;
+  hotel;
+  hotelTotal = 0;
   constructor(private Service: RsvpService) { }
 
   ngOnInit() {
@@ -40,6 +42,12 @@ export class AdminComponent implements OnInit {
     this.kids = this.Service.getGuest().subscribe(result => {for(let i = 0; i < result.length; i++) {
         if(result[i].kids!= ""){
         this.kidTotal += result[i].kids;
+      }
+      }
+    });
+    this.hotel = this.Service.getGuest().subscribe(result => {for(let i = 0; i < result.length; i++) {
+        if(result[i].hotel!= ""){
+        this.hotelTotal += result[i].hotel;
       }
       }
     });

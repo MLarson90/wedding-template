@@ -1,25 +1,36 @@
 <p>a</p>
 
 <!-- I ADDED THIS TO COUNT FOR THE NUMBER OF GUEST -->
-<h2>Total number of...</h2>
-<div *ngIf="weddingTotal" >
-  <h4>Wedding guest: {{weddingTotal}}</h4>
-</div>
-<div *ngIf="kidTotal" >
-  <h4>Children: {{kidTotal}}</h4>
-</div>
-<div *ngIf="receptionTotal" >
-  <h4>Reception guest: {{receptionTotal}}</h4>
-</div>
-<div *ngIf="brunchTotal" >
-  <h4>Brunch guest: {{brunchTotal}}</h4>
-</div>
-
-
-<h2>Guest List</h2>
-  <div *ngFor="let response of rsvp | async" class="panel panel-default">
-    <div class="panel-body">
-      <h3 id="guest"><em>{{response.first}}</em>  {{response.last}} </h3><h3 *ngIf="response.datefirst">  , {{response.datefirst}} {{response.datelast}}</h3>
-      <h4 *ngIf="response.kids">Children: {{ response.kids }}</h4>
-    </div>
+<div class="container topper">
+  <h2>Total number of...</h2>
+  <div *ngIf="weddingTotal" >
+    <h4>Wedding guest: {{weddingTotal}}</h4>
   </div>
+  <div *ngIf="kidTotal" >
+    <h4>Children: {{kidTotal}}</h4>
+  </div>
+  <div *ngIf="receptionTotal" >
+    <h4>Reception guest: {{receptionTotal}}</h4>
+  </div>
+  <div *ngIf="brunchTotal" >
+    <h4>Brunch guest: {{brunchTotal}}</h4>
+  </div>
+  <div *ngIf="hotelTotal" >
+    <h4>Hotel guest: {{hotelTotal}}</h4>
+  </div>
+</div>
+<!-- This will display all guest and dates name with number of children they have -->
+<div class="guestBack">
+<h2 class="guestTitle">Guest List</h2>
+    <div *ngFor="let response of rsvp | async" class="guestList">
+
+        <div class="row">
+          <h4 id="guest"><em>{{response.first}}</em>  {{response.last}} </h4>
+          <h4 *ngIf="response.datefirst">  , {{response.datefirst}} {{response.datelast}}</h4>
+        </div>
+        <div class="row">
+          <h5 *ngIf="response.kids">Children: {{ response.kids }}</h5>
+        </div>
+
+    </div>
+</div>

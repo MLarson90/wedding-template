@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Rsvp } from '../rsvp.model';
 import { RsvpService } from 'app/rsvp.service';
+import { Router, RouterModule } from '@angular/router';
 
 declare var $:any;
 @Component({
@@ -10,7 +11,7 @@ declare var $:any;
   providers: [RsvpService]
 })
 export class RsvpComponent implements OnInit {
-  constructor(private rsvp: RsvpService) { }
+  constructor(private rsvp: RsvpService, private router: Router) { }
   submit(first:string,last:string,datefirst:string,datelast:string,numberOfKids:number,reception:string,brunch:string,hotel:string){
     //calculate how many adults are coming (1 or 2)
     var date = function(datefirst){
@@ -47,6 +48,8 @@ export class RsvpComponent implements OnInit {
 
     var totalsForDb = new Rsvp(first,last, datefirst, datelast, children, party, receptionNumber, brunchNumber, hotelNumber);
     this.rsvp.addGuest(totalsForDb);
+
+    this.router.navigate(['./thanks']);
   }
 
 

@@ -1,6 +1,41 @@
 #guest{
   float:left;
+  margin-right: 10px;
 }
 h2{
   margin-top: 50px;
+}
+.topper{
+    font-family: 'Cormorant', cursive;
+}
+.guestTitle{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width:44%;
+  margin-left: 28%;
+  font-family: 'Great Vibes', cursive;
+  padding-left: 40px;
+  font-size: 50px;
+}
+.guestList{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width:50%;
+  margin-left: 25%;
+  color:#835E00;
+  background:#FFDA7E;
+  padding-left: 40px;
+  border: 2px solid #AF7E00;
+  border-radius: 10px;
+  font-family: 'Tangerine', cursive;
+
+}
+.guestList h5{
+  margin-top: -10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.guestList h4{
+  padding-left: 10px;
+  font-size: 35px;
 }

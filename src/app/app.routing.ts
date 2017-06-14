@@ -5,6 +5,7 @@ import { ScheduleComponent } from 'app/schedule/schedule.component';
 import { TravelComponent } from 'app/travel/travel.component';
 import { AdminComponent } from './admin/admin.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'rsvp',
     component: RsvpComponent
+  },
+  {
+    path: 'thanks',
+    component: ThanksComponent
   }
   ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

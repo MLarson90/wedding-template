@@ -13,6 +13,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { TravelComponent } from './travel/travel.component';
 import { AdminComponent } from './admin/admin.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 
 export const firebaseConfig = {
@@ -28,7 +29,8 @@ export const firebaseConfig = {
     ScheduleComponent,
     TravelComponent,
     AdminComponent,
-    RsvpComponent
+    RsvpComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,
