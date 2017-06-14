@@ -1,9 +1,25 @@
 <p>a</p>
-<h2>Guest List</h2>
 
-<div *ngFor="let response of rsvp | async" class="panel panel-default">
-  <div class="panel-body">
-    <h3 id="guest"><em>{{response.first}}</em>  {{response.last}} </h3><h3 *ngIf="response.datefirst">  , {{response.datefirst}} {{response.datelast}}</h3>
-  </div>
+<!-- I ADDED THIS TO COUNT FOR THE NUMBER OF GUEST -->
+<h2>Total number of...</h2>
+<div *ngIf="weddingTotal" >
+  <h4>Wedding guest: {{weddingTotal}}</h4>
 </div>
-<h2>Wedding guest {{wedding}}</h2>
+<div *ngIf="kidTotal" >
+  <h4>Children: {{kidTotal}}</h4>
+</div>
+<div *ngIf="receptionTotal" >
+  <h4>Reception guest: {{receptionTotal}}</h4>
+</div>
+<div *ngIf="brunchTotal" >
+  <h4>Brunch guest: {{brunchTotal}}</h4>
+</div>
+
+
+<h2>Guest List</h2>
+  <div *ngFor="let response of rsvp | async" class="panel panel-default">
+    <div class="panel-body">
+      <h3 id="guest"><em>{{response.first}}</em>  {{response.last}} </h3><h3 *ngIf="response.datefirst">  , {{response.datefirst}} {{response.datelast}}</h3>
+      <h4 *ngIf="response.kids">Children: {{ response.kids }}</h4>
+    </div>
+  </div>
