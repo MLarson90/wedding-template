@@ -10,8 +10,8 @@ export class TravelComponent implements OnInit {
 
   ngOnInit() {
     //Slides text in the header down from top
-      $('#travelTopHead').slideDown('slow');
-      $( "#travelHead" ).slideDown('slow');
+      $('#travelTopHead').slideDown(1000);
+      $( "#travelHead" ).slideDown(1300);
 
   }
 
