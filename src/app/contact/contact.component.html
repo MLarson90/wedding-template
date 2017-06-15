@@ -1,3 +1,16 @@
-<p>
-  contact works!
-</p>
+<div class="container">
+  <h1>Contact Us And Each Other!</h1>
+  <h3>Use this page to say congradulations to the happy couple, cordinate rides, or anything else you'd like to say related to the wedding</h3>
+  <h3>E-mail:<br>  <a href="mailto:lissa@gmail.com?subject=Wedding">Lissa</a><br><a href="mailto:terry@gmail.com?subject=Wedding">Terry</a></h3>
+</div>
+<div class="col-md-6">
+  <div *ngFor="let comment of comments | async">
+    <p class="commentSaid"> {{comment.said }} </p>
+    <p class="commentName"> -{{ comment.name }} </p>
+  </div>
+</div>
+<form class="comment">
+  <input id="name" #name placeholder="Name" required><br>
+  <textarea #comment rows="10" style="width:500px;" required></textarea><br>
+  <button (click)="submit(name.value, comment.value); name.value=''; comment.value='';">Leave Message</button>
+</form>
