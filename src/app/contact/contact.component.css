@@ -1,16 +1,42 @@
 /* Previous comments */
 .commentName{
   text-align: center;
-  width: 55%;
-  margin-left: 27%;
+  width: 70%;
+  margin-left: 15%;
   border-bottom:4px double gold;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 20px;
 }
 .commentSaid{
+  font-family: 'Annie Use Your Telescope', cursive;
   text-align: center;
-  width: 55%;
-  margin-left: 27%;
-  padding: 5px;
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+  font-size: 20px;
 }
+/* Header */
 h1{
+  margin-top: 70px;
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+h3{
+  font-family: 'Cormorant SC', serif;
+}
+#email{
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Cormorant SC', serif;
+}
+
+.page{
+background-color: rgba(255,211,150,.4);
+}
+/*.page #loopComments{
+  background-color: rgba(255,211,150,.4);
+}*/
+
+.comment{
   margin-top: 50px;
 }

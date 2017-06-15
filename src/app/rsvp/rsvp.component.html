@@ -8,8 +8,9 @@
 </div>
 <div class="bottom">
   <div class='row'>
+    <div class="col-md-6">
     <h4 id="formIntro">Please fill out all information by 4.1.18</h4>
-    <form id="RSVP">
+    <div id="RSVP">
       <h4>Your name</h4>
       <input id="first" #first placeholder="First Name" required>
       <input id="last" #last placeholder="Last Name" required><br>
@@ -24,7 +25,10 @@
         <h4>Children</h4>
         <input id="numberOfKids" #numberOfKids placeholder='Number Of Children'><br>
       </div>
+    </div>
+  </div>
       <h3>Will your party will be attending...</h3>
+      <div class="col-md-6">
       <h4 class="howMany">Reception</h4>
       <select #reception>
         <option value=true>Yes</option>
@@ -41,6 +45,6 @@
         <option value=false>No</option>
       </select><br>
         <button id="addRSVP" (click)="submit(first.value, last.value, datefirst.value, datelast.value, numberOfKids.value, reception.value,brunch.value,hotel.value)">Submit</button>
-    </form>
+    </div>
   </div>
-</div>
+  </div>
