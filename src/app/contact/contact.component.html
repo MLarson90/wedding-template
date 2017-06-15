@@ -1,10 +1,11 @@
-<div class="page">
+
+<div id="page">
   <div class="container">
     <h1>Contact Us And Each Other!</h1>
     <h3>Use this page to say congradulations to the happy couple, cordinate rides, or anything else you'd like to say related to the wedding</h3>
     <h4 id="email">Feel free to email us with any questions!<br>  <a href="mailto:lissa@gmail.com?subject=Wedding">Lissa</a><br><a href="mailto:terry@gmail.com?subject=Wedding">Terry</a></h4>
   </div>
-  <div id="loopComments" class="col-md-6">
+  <div class="comments">
     <div *ngFor="let comment of comments | async">
       <p class="commentSaid"> {{comment.said }} </p>
       <p class="commentName"> - {{ comment.name }} </p>
@@ -15,4 +16,5 @@
     <textarea #comment rows="10" style="width:500px;" required></textarea><br>
     <button (click)="submit(name.value, comment.value); name.value=''; comment.value='';">Leave Message</button>
   </form>
+  {{ today | date:'medium' }}
 </div>

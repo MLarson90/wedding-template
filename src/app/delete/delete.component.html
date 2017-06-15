@@ -1,0 +1,8 @@
+<p>
+  delete works!
+</p>
+<p>a</p><p>a</p>
+<div *ngFor="let comment of comments | async">
+  <p>{{comment.name}}: {{comment.said}}</p>
+  <button (click)="beginDeleteingComment(comment)">Delete</button>
+</div>

@@ -25,4 +25,11 @@ export class RsvpService {
   addComment(newcomment: Comment){
     this.comment.push(newcomment);
   }
+  getCommentById(commentId: string){
+    return this.database.object('comments/' + commentId);
+  }
+  deleteComment(commentToDelete){
+    var commentEntry = this.getCommentById(commentToDelete.$key);
+    commentEntry.remove();
+  }
 }

@@ -15,8 +15,13 @@
   padding: 10px;
   font-size: 20px;
 }
+.comments{
+  width: 50%;
+  margin-left: 25%;
+}
 /* Header */
 h1{
+  position:inherit;
   margin-top: 70px;
   font-family: 'Tangerine', cursive;
   font-size: 60px;
@@ -30,13 +35,12 @@ h3{
   font-family: 'Cormorant SC', serif;
 }
 
-.page{
+#page{
 background-color: rgba(255,211,150,.4);
 }
-/*.page #loopComments{
-  background-color: rgba(255,211,150,.4);
-}*/
+
 
 .comment{
+  text-align: center;
   margin-top: 50px;
 }

@@ -15,6 +15,7 @@ import { AdminComponent } from './admin/admin.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { ContactComponent } from './contact/contact.component';
+import { DeleteComponent } from './delete/delete.component';
 
 
 export const firebaseConfig = {
@@ -32,7 +33,8 @@ export const firebaseConfig = {
     AdminComponent,
     RsvpComponent,
     ThanksComponent,
-    ContactComponent
+    ContactComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
