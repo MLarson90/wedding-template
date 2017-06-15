@@ -6,6 +6,7 @@ import { TravelComponent } from 'app/travel/travel.component';
 import { AdminComponent } from './admin/admin.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
 import { ThanksComponent } from './thanks/thanks.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   {
@@ -31,6 +32,10 @@ const appRoutes: Routes = [
   {
     path: 'thanks',
     component: ThanksComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
   ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

@@ -14,6 +14,7 @@ import { TravelComponent } from './travel/travel.component';
 import { AdminComponent } from './admin/admin.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
 import { ThanksComponent } from './thanks/thanks.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 export const firebaseConfig = {
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     TravelComponent,
     AdminComponent,
     RsvpComponent,
-    ThanksComponent
+    ThanksComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
