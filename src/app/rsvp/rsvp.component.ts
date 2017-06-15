@@ -54,17 +54,24 @@ export class RsvpComponent implements OnInit {
 
 
   ngOnInit() {
+  //fade in top "RSVP"
+  $('#ar').delay(0).animate({'opacity':'1'},2000);
+  $('#es').delay(400).animate({'opacity':'1'},2000);
+  $('#ve').delay(800).animate({'opacity':'1'},2000);
+  $('#pee').delay(1200).animate({'opacity':'1'},2000);
+  $('#letUsKnow').delay(1600).animate({'opacity':'1'},2000);
+  $('#cantWait').delay(1800).animate({'opacity':'1'},2000);
   //RSVP form functions
-$('#plus').click(function(event){
-  event.preventDefault();
-  $('#plusOne').fadeIn(1000);
-  $('#plus').fadeOut(1000);
-});
-$('#kids').click(function(event){
-  event.preventDefault();
-  $('#amountOfKids').fadeIn(1000);
-  $('#kids').fadeOut(1000);
-});
+  $('#plus').click(function(event){
+    event.preventDefault();
+    $('#plusOne').fadeIn(1000);
+    $('#plus').fadeOut(1000);
+  });
+  $('#kids').click(function(event){
+    event.preventDefault();
+    $('#amountOfKids').fadeIn(1000);
+    $('#kids').fadeOut(1000);
+  });
   }
 
 }

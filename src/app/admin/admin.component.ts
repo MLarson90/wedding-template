@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { RsvpService } from '../rsvp.service';
-import { Display } from '../display.model';
 import { Observable } from 'rxjs/Rx';
 
 

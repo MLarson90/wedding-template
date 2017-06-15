@@ -1,44 +1,46 @@
 <div class='row'>
   <div id="coming">
-    <h1>R.S.V.P</h1>
+    <h1><span id="ar">R.</span><span id="es">S.</span><span id="ve">V.</span><span id="pee">P.</span></h1>
     <div id="rsvpMessage">
-      <h3>Let us know if you will be attending.<br> We can't wait to see you!</h3>
+      <h3><span id="letUsKnow">Let us know if you will be attending.</span><br> <span id="cantWait">We can't wait to see you!</span></h3>
     </div>
   </div>
 </div>
-<div class='row'>
-  <h4 id="formIntro">Please fill out all information by 4.1.18</h4>
-  <form id="RSVP">
-    <h4>Your name</h4>
-    <input id="first" #first placeholder="first name" required>
-    <input id="last" #last placeholder="last name" required><br>
-    <button type="button" id="plus">Bringing a Date?</button><br>
-  <div id="plusOne">
-    <h4>Date's Name</h4>
-    <input id="datefirst" #datefirst placeholder="first name">
-    <input id="datelast" #datelast placeholder="last name"><br>
-  </div>
-    <button type='button' id='kids'>Kids?</button><br>
-    <div id='amountOfKids'>
-      <h4>Children</h4>
-      <input id="numberOfKids" #numberOfKids placeholder='Number of children'><br>
+<div class="bottom">
+  <div class='row'>
+    <h4 id="formIntro">Please fill out all information by 4.1.18</h4>
+    <form id="RSVP">
+      <h4>Your name</h4>
+      <input id="first" #first placeholder="First Name" required>
+      <input id="last" #last placeholder="Last Name" required><br>
+      <button type="button" id="plus">Bringing a Date?</button><br>
+    <div id="plusOne">
+      <h4>Date's Name</h4>
+      <input id="datefirst" #datefirst placeholder="First Name">
+      <input id="datelast" #datelast placeholder="Last Name"><br>
     </div>
-    <h3>How many in your party will be attending...</h3>
-    <h4>Reception</h4>
-    <select #reception>
-      <option value=true>Yes</option>
-      <option value=false>No</option>
-    </select>
-    <h4>Brunch</h4>
-    <select #brunch>
-      <option value=true>Yes</option>
-      <option value=false>No</option>
-    </select>
-    <h4>Staying at the Westin?</h4>
-    <select #hotel>
-      <option value=true>Yes</option>
-      <option value=false>No</option>
-    </select><br>
-      <button id="addRSVP" (click)="submit(first.value, last.value, datefirst.value, datelast.value, numberOfKids.value, reception.value,brunch.value,hotel.value)">Submit</button>
-  </form>
+      <button type='button' id='kids'>Kids?</button><br>
+      <div id='amountOfKids'>
+        <h4>Children</h4>
+        <input id="numberOfKids" #numberOfKids placeholder='Number Of Children'><br>
+      </div>
+      <h3>Will your party will be attending...</h3>
+      <h4 class="howMany">Reception</h4>
+      <select #reception>
+        <option value=true>Yes</option>
+        <option value=false>No</option>
+      </select>
+      <h4 class="howMany">Brunch</h4>
+      <select #brunch>
+        <option value=true>Yes</option>
+        <option value=false>No</option>
+      </select>
+      <h4 class="howMany">Staying at the Westin?</h4>
+      <select #hotel>
+        <option value=true>Yes</option>
+        <option value=false>No</option>
+      </select><br>
+        <button id="addRSVP" (click)="submit(first.value, last.value, datefirst.value, datelast.value, numberOfKids.value, reception.value,brunch.value,hotel.value)">Submit</button>
+    </form>
+  </div>
 </div>
