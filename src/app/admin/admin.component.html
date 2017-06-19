@@ -1,22 +1,29 @@
-<p>a</p>
+
 
 <!-- I ADDED THIS TO COUNT FOR THE NUMBER OF GUEST -->
 <div class="container topper">
-  <h2>Total number of...</h2>
-  <div *ngIf="weddingTotal" >
-    <h4>Wedding guest: {{weddingTotal}}</h4>
-  </div>
-  <div *ngIf="kidTotal" >
-    <h4>Children: {{kidTotal}}</h4>
-  </div>
-  <div *ngIf="receptionTotal" >
-    <h4>Reception guest: {{receptionTotal}}</h4>
-  </div>
-  <div *ngIf="brunchTotal" >
-    <h4>Brunch guest: {{brunchTotal}}</h4>
-  </div>
-  <div *ngIf="hotelTotal" >
-    <h4>Hotel guest: {{hotelTotal}}</h4>
+  <div class='row'>
+    <div class="col-md-6">
+      <h2>Total number of...</h2>
+      <div *ngIf="weddingTotal" >
+        <h4>Wedding guest: {{weddingTotal}}</h4>
+      </div>
+      <div *ngIf="kidTotal" >
+        <h4>Children: {{kidTotal}}</h4>
+      </div>
+      <div *ngIf="receptionTotal" >
+        <h4>Reception guest: {{receptionTotal}}</h4>
+      </div>
+      <div *ngIf="brunchTotal" >
+        <h4>Brunch guest: {{brunchTotal}}</h4>
+      </div>
+      <div *ngIf="hotelTotal" >
+        <h4>Hotel guest: {{hotelTotal}}</h4>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <p id="delete"><a href="/admin/delete">Delete Comments</a></p>
+    </div>
   </div>
 </div>
 <!-- This will display all guest and dates name with number of children they have -->
