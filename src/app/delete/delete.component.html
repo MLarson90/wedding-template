@@ -1,8 +1,7 @@
-<p>
-  delete works!
-</p>
-<p>a</p><p>a</p>
-<div *ngFor="let comment of comments | async">
-  <p>{{comment.name}}: {{comment.said}}</p>
-  <button (click)="beginDeleteingComment(comment)">Delete</button>
+<div class="container">
+  <div class="top" *ngFor="let comment of comments | async">
+    <h3>{{comment.name}}:</h3> <p>{{comment.said}}</p>
+    <button (click)="beginDeleteingComment(comment)">Delete</button>
+    <hr>
+  </div>
 </div>

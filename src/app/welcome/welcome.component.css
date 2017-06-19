@@ -28,8 +28,3 @@ p{
 #third{
   display:none;
 }
-#hidden{
-  position: absolute;
-  opacity: 0;
-  font-size: 25px;
-}

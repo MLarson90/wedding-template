@@ -8,6 +8,7 @@ import { RsvpComponent } from './rsvp/rsvp.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { ContactComponent } from './contact/contact.component';
 import { DeleteComponent } from './delete/delete.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 const appRoutes: Routes = [
   {
@@ -41,6 +42,10 @@ const appRoutes: Routes = [
   {
     path: 'admin/delete',
     component: DeleteComponent
+  },
+  {
+    path: 'admin/sign_in',
+    component: SignInComponent
   }
   ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

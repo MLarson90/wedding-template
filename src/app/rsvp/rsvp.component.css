@@ -2,7 +2,12 @@
 .bottom{
   background-color: rgba(255,211,150,.4);
   font-family: 'Cormorant', cursive;
+  padding:7%;
 }
+h3{
+  margin-top: 5px;
+}
+/* Top section */
 #coming{
   background-image: url("/assets/img/big.jpg");
   background-repeat: no-repeat;
@@ -32,10 +37,6 @@
 }
 #amountOfKids{
   display:none;
-}
-#RSVP{
-  margin-left: 40%;
-  margin-top: 50px;
 }
 #formIntro{
   text-align: center;
@@ -69,8 +70,52 @@
 }
 select{
   margin-left: 160px;
+  background-color: rgba(128,90,21,.8);
+  color: rgba(254,191,64,1);
 }
 #addRSVP{
   margin-top: 56px;
   margin-left: 250px;
+}
+.right{
+  border-radius: 10px;
+  background-color:rgba(239, 213, 153,.8);
+  margin-right: 10px;
+  padding:15px;
+  width:500px;
+  height: 350px;
+  margin-left:50px;
+  margin-top: 10px;
+  border: 6px double rgba(254,191,64,1);
+}
+/* Left side of form */
+#RSVP{
+  margin-left: 20%;
+  margin-top: 50px;
+}
+#RSVP button{
+  margin-top: 10px;
+  background-color: rgba(128,90,21,.8);
+  border-radius: 20px;
+  color: rgba(254,191,64,1);
+    font-family: 'Cormorant SC', serif;
+}
+.left{
+  border-radius: 10px;
+  border: 6px double rgba(254,191,64,1);
+  background-color:rgba(239, 213, 153,.8);
+  padding:15px;
+  width:500px;
+  margin-right: 50px;
+  margin-left:50px;
+  height: 350px;
+  margin-top: 10px;
+}
+/* submit button */
+#addRSVP{
+  margin-top: 10px;
+  background-color: rgba(128,90,21,.8);
+  border-radius: 20px;
+  color: rgba(254,191,64,1);
+  font-family: 'Cormorant SC', serif;
 }

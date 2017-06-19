@@ -15,11 +15,11 @@ export class ContactComponent implements OnInit {
 
   constructor(private rsvp:RsvpService, private router: Router, private time: CommonModule) { }
     submit(name:string, said:string){
+
       var comment = new Comment(name, said);
       this.rsvp.addComment(comment);
     }
     comments;
-    today: number = Date.now();
   ngOnInit() {
     this.comments = this.rsvp.getComment();
   }

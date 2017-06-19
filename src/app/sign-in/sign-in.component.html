@@ -1,0 +1,7 @@
+<div class="container">
+  <form>
+    <input #username placeholder="Username" required><br>
+    <input #password placeholder="Password" type="password" required><br>
+    <button (click)="submit(username.value, password.value)">Sign In</button>
+  </form>
+</div>

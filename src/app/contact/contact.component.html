@@ -14,7 +14,7 @@
   <form class="comment">
     <input id="name" #name placeholder="Name" required><br>
     <textarea #comment rows="10" style="width:500px;" required></textarea><br>
-    <button (click)="submit(name.value, comment.value); name.value=''; comment.value='';">Leave Message</button>
+    <button (click)="submit(name.value, comment.value, startDate.value); name.value=''; comment.value='';">Leave Message</button>
   </form>
   {{ today | date:'medium' }}
 </div>

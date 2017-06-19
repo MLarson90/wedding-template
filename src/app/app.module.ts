@@ -16,6 +16,7 @@ import { RsvpComponent } from './rsvp/rsvp.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { ContactComponent } from './contact/contact.component';
 import { DeleteComponent } from './delete/delete.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 
 export const firebaseConfig = {
@@ -34,7 +35,8 @@ export const firebaseConfig = {
     RsvpComponent,
     ThanksComponent,
     ContactComponent,
-    DeleteComponent
+    DeleteComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,

@@ -2,3 +2,17 @@
     font-family: 'Tangerine', cursive;
     font-size: 30px;
 }
+.navbar{
+  background-color:rgba(239, 213, 153,.8);
+}
+#admin{
+  float:right;
+  list-style-type: none;
+  margin-right: 8px;
+  margin-top: 12px;
+  font-size: 15px;
+}
+#admin a{
+    color:grey;
+    font-family: 'Cormorant SC', serif;
+}
