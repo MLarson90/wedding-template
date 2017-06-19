@@ -27,3 +27,9 @@ p a:hover{
   font-size: 40px;
   cursor: pointer;
 }
+/* cell phone */
+@media screen and (max-width: 500px){
+  h1{
+    margin-top: 300px;
+  }
+}

@@ -50,3 +50,22 @@ h2{
   font-size: 30px;
   margin-top: 55px;
 }
+@media screen and (max-width: 500px){
+  .topper{
+    margin-top: 200px;
+  }
+  .guestList h5{
+    margin-top: -10px;
+
+    padding-left: 0px;
+
+    font-size: 15px;
+  }
+  .guestList h4{
+    padding-left: 25px;
+    padding-right: 8px;
+    font-size: 30px;
+    margin-right: 30px;
+    padding-right: 10px;
+  }
+}

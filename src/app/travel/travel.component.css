@@ -43,3 +43,26 @@ li{
 #travelTopHead{
   display:none;
 }
+
+@media screen and (max-width: 500px){
+  #travelHead{
+    display: none;
+    margin: 10px 3px 0 3px;
+  }
+  #travelTopHead{
+    display:none;
+    margin-top: 270px;
+  }
+  .planeToDown{
+    background:white;
+    margin-left:10px;
+    font-family: 'Cormorant', serif;
+    font-size: 17px;
+  }
+  .planeToDown h2{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px double gold;
+  }
+
+}

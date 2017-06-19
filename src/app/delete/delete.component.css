@@ -16,3 +16,8 @@ button{
 .top{
   margin-top: 70px;
 }
+@media screen and (max-width: 500px){
+  .top{
+    margin-top: 200px;
+  }
+}

@@ -62,3 +62,35 @@
   margin-top: 2px;
   margin-left: 890px;
 }
+@media screen and (max-width: 500px){
+  .topSide{
+    background-image: url("/assets/img/whiteflower.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-family: 'Tangerine', cursive;
+    color:black;
+    display: none;
+    margin-top: 270px;
+  }
+  .topSide h1{
+    padding-top: 80px;
+    font-size:60px;
+    margin-left: 8px;
+  }
+  .topSide p{
+    font-size:30px;
+    margin-top: 2px;
+    margin-left: 8px;
+  }
+  .bottomSide h1{
+    padding-top: 80px;
+    font-size:60px;
+    margin-left: 8px;
+  }
+  .bottomSide p{
+    font-size:30px;
+    margin-top: 2px;
+    margin-left: 8px;
+  }
+}

@@ -16,3 +16,14 @@
     color:grey;
     font-family: 'Cormorant SC', serif;
 }
+@media screen and (max-width: 500px){
+  .nav li{
+    float:none;
+    margin-left: 50px;
+  }
+  .navFont{
+    float:none;
+    margin-right: 50%;
+    margin-bottom: 7px;
+  }
+}

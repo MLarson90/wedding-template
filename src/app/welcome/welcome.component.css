@@ -28,3 +28,10 @@ p{
 #third{
   display:none;
 }
+/*Cell phone screen */
+@media screen and (max-width: 500px){
+.welcomeBackground{
+  padding-top: 320px;
+  background-position: left;
+}
+}

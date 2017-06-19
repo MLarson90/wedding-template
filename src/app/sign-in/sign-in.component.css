@@ -16,3 +16,10 @@ button{
   margin-top: 10px;
   font-family: 'Cormorant SC', serif;
 }
+/* cell phone */
+@media screen and (max-width: 500px){
+  .top{
+    margin-top: 250px;
+  }
+
+}
