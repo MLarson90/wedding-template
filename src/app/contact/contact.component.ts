@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { RsvpService } from 'app/rsvp.service';
 import { Comment } from '../comment.model';
-import { CommonModule } from '@angular/common';
 declare var $:any;
 
 @Component({
@@ -13,7 +12,7 @@ declare var $:any;
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private rsvp:RsvpService, private router: Router, private time: CommonModule) { }
+  constructor(private rsvp:RsvpService, private router: Router) { }
     submit(name:string, said:string){
 
       var comment = new Comment(name, said);
