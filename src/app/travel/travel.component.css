@@ -1,7 +1,8 @@
 /* background image adn text */
 .travelBackground{
-  background-image: url('/assets/img/space-needle.jpg');
+  background-image: url('/assets/img/needle3.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size:cover;
   height: 500px;
   margin-top: 50px;
