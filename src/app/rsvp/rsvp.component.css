@@ -17,14 +17,14 @@ h3{
   border-bottom: 6px double rgba(254,191,64,1);
 }
 #coming h1{
-  padding-top: 50px;
+  padding-top: 70px;
   font-size: 80px;
   font-family: 'Tangerine', cursive;
   color:white;
   text-align: center;
 }
 #coming h3{
-  margin-top: 300px;
+  margin-top: 260px;
   margin-left: 20px;
   font-family: 'Tangerine', cursive;
   font-size: 50px;
@@ -129,10 +129,17 @@ select{
     background-repeat: no-repeat;
     background-position:left;
     background-size: cover;
-    margin-top: 270px;
+    margin-top: 194px;
     padding-bottom: 20px;
     height:600px;
     border-bottom: 3px solid white;
+  }
+  #coming h3{
+    margin-top: 230px;
+    margin-left: 20px;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color:white;
   }
   .left{
     border-radius: 10px;

@@ -34,4 +34,11 @@ p{
   padding-top: 320px;
   background-position: left;
 }
+h1{
+  text-align: left;
+  margin-left: -40px;
+}
+#and{
+  margin-left: 80px;
+}
 }

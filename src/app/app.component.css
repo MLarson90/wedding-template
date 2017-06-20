@@ -18,12 +18,14 @@
 }
 @media screen and (max-width: 500px){
   .nav li{
-    float:none;
+    display: block;
+    margin-top: -10px;
     margin-left: 50px;
   }
   .navFont{
     float:none;
     margin-right: 50%;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
+    height:10px;
   }
 }
