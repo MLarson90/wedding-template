@@ -42,7 +42,7 @@ li{
   background-image: url('/assets/img/Westin.jpg');
   background-repeat: no-repeat;
   background-size:cover;
-  height: 450px;
+  height: 500px;
   margin-top: 30px;
 }
 .listBold{
@@ -51,7 +51,10 @@ li{
 }
 #hotelList{
   text-align: center;
-    font-family: 'Cormorant', serif;
+  font-family: 'Cormorant', serif;
+}
+#hotelList li{
+  font-size: 15px;
 }
 #hotelTop{
   text-align: center;
@@ -74,6 +77,9 @@ li{
     display:none;
     margin-top: 270px;
   }
+  .travelBackground{
+    margin-top: 0px;
+  }
   .planeToDown{
     background:white;
     margin-left:10px;
@@ -85,5 +91,7 @@ li{
     padding-bottom: 10px;
     border-bottom: 4px double gold;
   }
-
+  #hotelList{
+    margin-right: 40px;
+  }
 }

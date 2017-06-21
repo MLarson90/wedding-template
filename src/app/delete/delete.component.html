@@ -1,6 +1,7 @@
 <div class="container top">
   <div class="top" *ngFor="let comment of comments | async">
-    <h3>{{comment.name}}:</h3> <p>{{comment.said}}</p>
+    <h3>{{comment.name}}:</h3>
+    <p>{{comment.said}}</p>
     <button (click)="beginDeleteingComment(comment)">Delete</button>
     <hr>
   </div>

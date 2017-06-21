@@ -28,15 +28,15 @@
 </div>
 <!-- This will display all guest and dates name with number of children they have -->
 <div class="guestBack">
-<h2 class="guestTitle">Guest List</h2>
-    <div *ngFor="let response of rsvp | async" class="guestList">
-        <div class="row">
-          <h4 id="guest"><em>{{response.first}}</em>  {{response.last}} </h4>
-          <h4 *ngIf="response.datefirst"> , {{response.datefirst}} {{response.datelast}}</h4>
-        </div>
-        <div class="row">
-          <h5 *ngIf="response.kids">Children: {{ response.kids }}</h5>
-        </div>
-
-    </div>
+  <h2 class="guestTitle">Guest List</h2><hr>
+  <div *ngFor="let response of rsvp | async" class="guestList">
+      <div class="row">
+        <h4 id="guest"><em>{{response.first}}</em>  {{response.last}} </h4>
+        <h4 *ngIf="response.datefirst"> , {{response.datefirst}} {{response.datelast}}</h4>
+      </div>
+      <div class="row">
+        <h5 *ngIf="response.kids">Children: {{ response.kids }}</h5>
+      </div>
+  </div>
+  <hr>
 </div>

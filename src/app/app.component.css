@@ -18,10 +18,10 @@
   font-family: 'Cormorant SC', serif;
 }
 @media screen and (max-width: 500px){
-  .nav li{
+  .nav li a{
     display: block;
-    margin-top: -10px;
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   .navFont{
     float:none;

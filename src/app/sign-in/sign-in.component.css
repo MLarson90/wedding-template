@@ -10,9 +10,9 @@ input{
   font-family: 'Cormorant SC', serif;
 }
 button{
-  background-color: rgba(128,90,21,.8);
+  background-color: white;
+  color: rgba(55,98,227,.6);
   border-radius: 20px;
-  color: rgba(254,191,64,1);
   margin-top: 10px;
   font-family: 'Cormorant SC', serif;
 }

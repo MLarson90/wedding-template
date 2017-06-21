@@ -22,10 +22,10 @@ h2{
   margin-top: 10px;
   width:50%;
   margin-left: 25%;
-  color:#835E00;
-  background:rgba(255, 218, 126,.8);
+  color:white;
+  background-color: rgba(55,98,227,.6);
   padding-left: 40px;
-  border: 2px solid #AF7E00;
+  border: 6px double white;
   border-radius: 10px;
   font-family: 'Tangerine', cursive;
 

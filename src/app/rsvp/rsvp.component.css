@@ -69,7 +69,7 @@ h3{
 }
 select{
   background-color: white;
-  color: rgba(55,98,227,.6);
+  color: rgba(55,98,227,.8);
 }
 
 .right{
@@ -88,7 +88,7 @@ select{
 #RSVP button{
   margin-top: 10px;
   background-color: white;
-  color: rgba(55,98,227,.6);
+  color: rgba(55,98,227,.8);
   border-radius: 20px;
   font-family: 'Cormorant SC', serif;
 }
@@ -105,7 +105,7 @@ h4{
   margin-top: 30px;
   margin-left: 150px;
   background-color: white;
-  color: rgba(55,98,227,.6);
+  color: rgba(55,98,227,.8);
   border-radius: 20px;
   font-family: 'Cormorant SC', serif;
 }
@@ -120,7 +120,7 @@ h4{
     background-repeat: no-repeat;
     background-position:left;
     background-size: cover;
-    margin-top: 194px;
+    margin-top: 210px;
     padding-bottom: 20px;
     height:600px;
     border-bottom: 3px solid white;
