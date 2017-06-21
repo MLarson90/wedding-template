@@ -48,16 +48,24 @@ h3{
 }
 
 /* form style */
-
+#name{
+  opacity: .7;
+}
 .comment{
   text-align: center;
   margin-top: 50px;
-  color: rgba(254,191,64,1);
+  color: rgba(55,98,227,1);
   padding: 15px;
+  background-image: url('/assets/img/handheart.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+  margin-top: 30px;
 }
 textarea{
-  margin-top: 7px;
+  margin-top: 47px;
   width: 500px;
+  opacity: .7;
 }
 .comment button{
   background-color: white;
@@ -73,6 +81,9 @@ textarea{
   .comments{
     width: 80%;
     margin-left: 10%;
+  }
+  .comment{
+    background-position: center;
   }
   textarea{
     margin-top: 7px;
