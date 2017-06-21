@@ -17,6 +17,7 @@ import { ThanksComponent } from './thanks/thanks.component';
 import { ContactComponent } from './contact/contact.component';
 import { DeleteComponent } from './delete/delete.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 export const firebaseConfig = {
@@ -36,7 +37,8 @@ export const firebaseConfig = {
     ThanksComponent,
     ContactComponent,
     DeleteComponent,
-    SignInComponent
+    SignInComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

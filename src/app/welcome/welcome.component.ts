@@ -16,7 +16,8 @@ export class WelcomeComponent implements OnInit {
     $('#first').fadeIn(1000);
     $('#second').fadeIn(3000);
     $('#third').fadeIn(3500);
-  
+    //hidesfooter
+    $('.bot').hide();
   }
 
 }

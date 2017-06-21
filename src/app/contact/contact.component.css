@@ -10,6 +10,7 @@
   font-size: 20px;
   margin-bottom: 10px;
   background-color:rgba(55,98,227,.4);
+  color:white;
 }
 .commentSaid{
   font-family: 'Annie Use Your Telescope', cursive;
@@ -24,6 +25,7 @@
   border-left:6px double White;
   border-right:6px double White;
   background-color:rgba(55,98,227,.4);
+  color:white;
 }
 .comments{
   width: 50%;
@@ -61,7 +63,8 @@ textarea{
   width: 500px;
 }
 .comment button{
-  background-color: rgba(128,90,21,.8);
+  background-color: white;
+  color: rgba(55,98,227,.6);
   border-radius: 20px;
 }
 

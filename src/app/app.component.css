@@ -1,7 +1,4 @@
-.navFont{
-    font-family: 'Tangerine', cursive;
-    font-size: 30px;
-}
+
 .navbar{
   background-color:rgba(55,98,227,.4);
 }
@@ -17,8 +14,8 @@
   font-size: 15px;
 }
 #admin a{
-    color:white;
-    font-family: 'Cormorant SC', serif;
+  color:white;
+  font-family: 'Cormorant SC', serif;
 }
 @media screen and (max-width: 500px){
   .nav li{

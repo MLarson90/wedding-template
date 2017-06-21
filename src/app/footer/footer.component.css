@@ -1,0 +1,15 @@
+.bot{
+  background-image: url("/assets/img/mono.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  margin-top: 50px;
+  height: 200px;
+}
+h1{
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  padding-top: 72px;
+  font-size: 60px;
+  margin-right: 20px;
+  color:rgba(84,181,220,.7);
+}
