@@ -3,7 +3,11 @@
     font-size: 30px;
 }
 .navbar{
-  background-color:rgba(204, 161, 61,.8);
+  background-color:rgba(55,98,227,.4);
+}
+.navbar a{
+  color:white;
+  font-family: 'Cormorant SC', serif;
 }
 #admin{
   float:right;
@@ -13,7 +17,7 @@
   font-size: 15px;
 }
 #admin a{
-    color:grey;
+    color:white;
     font-family: 'Cormorant SC', serif;
 }
 @media screen and (max-width: 500px){

@@ -3,13 +3,13 @@
   text-align: center;
   width: 70%;
   margin-left: 15%;
-  border-bottom:4px double gold;
-  border-left:4px double gold;
-  border-right:4px double gold;
+  border-bottom:6px double White;
+  border-left:6px double White;
+  border-right:6px double White;
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 20px;
   margin-bottom: 10px;
-  background-color: rgba(255,211,150,.4);
+  background-color:rgba(55,98,227,.4);
 }
 .commentSaid{
   font-family: 'Annie Use Your Telescope', cursive;
@@ -20,10 +20,10 @@
   margin-top: 0;
   padding: 20px;
   font-size: 20px;
-  border-top:4px double gold;
-  border-left:4px double gold;
-  border-right:4px double gold;
-  background-color: rgba(255,211,150,.4);
+  border-top:6px double White;
+  border-left:6px double White;
+  border-right:6px double White;
+  background-color:rgba(55,98,227,.4);
 }
 .comments{
   width: 50%;

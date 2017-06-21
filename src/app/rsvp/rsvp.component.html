@@ -6,11 +6,10 @@
     </div>
   </div>
 </div>
-<div class="bottom">
-  <div class="container">
-  <div class='row'>
-    <div class="col-md-5 left">
-    <h4 id="formIntro">Please fill out all information by 4.1.18</h4>
+<div class="container">
+  <div class="bottom">
+    <h4 id="formIntro">Please fill out all information by 4.1.18</h4><hr>
+    <div class="left">
     <div id="RSVP">
       <h4>Your name</h4>
       <input id="first" #first placeholder="First Name" required>
@@ -28,7 +27,8 @@
       </div>
     </div>
   </div>
-      <div class="col-md-5 right">
+  <hr>
+      <div class="right">
         <h3>Will your party be attending...</h3>
       <h4 class="howMany">Reception</h4>
       <select #reception>
@@ -47,6 +47,6 @@
       </select><br>
         <button id="addRSVP" (click)="submit(first.value, last.value, datefirst.value, datelast.value, numberOfKids.value, reception.value,brunch.value,hotel.value)">Submit</button>
     </div>
-  </div>
+    <hr>
   </div>
 </div>

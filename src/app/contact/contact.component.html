@@ -4,6 +4,11 @@
     <h1>Contact Us And Each Other!</h1>
     <h3>Use this page to say congradulations to the happy couple, cordinate rides, or anything else you'd like to say related to the wedding</h3>
     <h4 id="email">Feel free to email us with any questions!<br>  <a href="mailto:lissa@gmail.com?subject=Wedding">Lissa</a><br><a href="mailto:terry@gmail.com?subject=Wedding">Terry</a></h4>
+    <form class="comment">
+      <input id="name" #name placeholder="Name" required><br>
+      <textarea #comment rows="10" required></textarea><br>
+      <button (click)="submit(name.value, comment.value); name.value=''; comment.value='';">Leave Message</button>
+    </form>
   </div>
   <div class="comments">
     <div *ngFor="let comment of comments | async">
@@ -11,9 +16,4 @@
       <p class="commentName"> - {{ comment.name }} </p>
     </div>
   </div>
-  <form class="comment">
-    <input id="name" #name placeholder="Name" required><br>
-    <textarea #comment rows="10" required></textarea><br>
-    <button (click)="submit(name.value, comment.value); name.value=''; comment.value='';">Leave Message</button>
-  </form>
 </div>
