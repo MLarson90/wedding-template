@@ -35,7 +35,27 @@ li{
 .planeToDown h2{
   text-align: center;
   padding-bottom: 10px;
-  border-bottom: 4px double gold;
+  border-bottom: 4px double rgba(55,98,227,.6);;
+}
+/* hetel section */
+.hotel{
+  background-image: url('/assets/img/Westin.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 450px;
+  margin-top: 30px;
+}
+.listBold{
+  font-family: 'Cormorant', serif;
+  font-size: 30px;
+}
+#hotelList{
+  text-align: center;
+    font-family: 'Cormorant', serif;
+}
+#hotelTop{
+  text-align: center;
+  font-family: 'Cormorant', serif;
 }
 /* needed for jquery slideIn */
 #travelHead{

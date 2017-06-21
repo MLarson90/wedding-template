@@ -8,7 +8,7 @@
   border-right:6px double White;
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   background-color:rgba(55,98,227,.4);
   color:white;
 }
@@ -47,9 +47,6 @@ h3{
   font-family: 'Cormorant SC', serif;
 }
 
-/*#page{
-background-color: rgba(255,211,150,.4);
-}*/
 /* form style */
 
 .comment{
