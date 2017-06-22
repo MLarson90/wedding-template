@@ -24,7 +24,7 @@
 }
 /* styles both columns */
 li{
-  list-style-type: none;
+  /*list-style-type: none;*/
 }
 .planeToDown{
   background:white;
@@ -54,7 +54,8 @@ li{
   font-family: 'Cormorant', serif;
 }
 #hotelList li{
-  font-size: 15px;
+  list-style-type: none;
+  font-size: 17px;
 }
 #hotelTop{
   text-align: center;

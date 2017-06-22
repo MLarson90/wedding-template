@@ -18,6 +18,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DeleteComponent } from './delete/delete.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { FooterComponent } from './footer/footer.component';
+import { ReversePipe } from './reverse.pipe';
 
 
 export const firebaseConfig = {
@@ -38,7 +39,8 @@ export const firebaseConfig = {
     ContactComponent,
     DeleteComponent,
     SignInComponent,
-    FooterComponent
+    FooterComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule,
